@@ -1,0 +1,82 @@
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  config: "charset=utf8mb4&parseTime=True&loc=Local"
+  db: gvb_db
+  user: root
+  password: root
+  log_level: dev
+logger:
+  level: info
+  prefix: '[gvb]'
+  director: log
+  show_line: true
+  log_in_console: true
+system:
+  host: 0.0.0.0
+  port: 8080
+  env: release
+site_info:
+  created_at: "2023-02-12"
+  bei_an: 湘ICP备2021010654号-1
+  title: 安全带的个人博客
+  qq_image: http://www.AQD.com/static/my/img/footer/qq.png
+  version: 6.0.2
+  email: 2663456523@qq.com
+  wechat_image: http://www.AQD.com/static/my/img/footer/wechat.png
+  name: 安全带
+  job: 后端开发
+  addr: 湖北鄂州
+  slogan: 洗澡先の个人博客
+  slogan_en: BLOGGED
+  web: http://www.AQD.com/
+  bilibili_url: https://space.bilibili.com/195134486
+  gitee_url: https://qitee.com/aqdegtjulo
+  github_url: https://github.com/aqdegtjulo
+jwt:
+  secret: "xxx"
+  expires: 48
+  issuer: "xx"
+email:
+  host: "smtp.qq.com"
+  port: 25
+  user: "1329438356@qq.com"
+  password: "dsprqmyiizmljefe"
+  default_from_email: "aqd"
+  use_ssl: true
+  user_tls: true
+qi_niu:
+  enable: false
+  access_key: RQRb6sw8kWzipoarWDGQKqQ1ZHxqSSLzNrbv8_Ro
+  secret_key: RbhHfmSs_WCNDKSmAkWhb0E_j-iOfdRi0Ju4WRam
+  bucket: aqd
+  cdn: hn-bkt-clouddn-com-idvcz9d.www.qiniudns.com/
+  zone: z2
+  prefix: gvb
+  size: 5
+qq:
+  app-id: "xx"
+  key: "xx"
+  redirect: "http://xx.xx.com/login?flag=qq"
+local:
+  path: uploads/file
+  store-path: uploads/file
+upload:
+  size: 2
+  path: uploads/file
+redis:
+  ip: 127.0.0.1
+  port: 6379
+  password: "xzx2004413"
+  pool_size: 100
+es:
+  host: "http://127.0.0.1"
+  port: 9200
+  user:
+  password:
+
+
+
+
+
+
